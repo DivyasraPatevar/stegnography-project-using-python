@@ -87,3 +87,6 @@ Real-time camera deepfake detection
 Live microphone AI voice detection
 Threat visualization dashboard
 Cloud deployment
+
+
+An advanced AI-based steganography and cybersecurity tool that extracts hidden data from media files and detects fake links, malicious APKs, third-party apps, and deepfake image, video, and audio content using multi-layer threat analysis.
