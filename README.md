@@ -1,92 +1,166 @@
-# 🔒 AI-Powered Steganography Threat Detection System
+# 🔒 **AI-Powered Steganography Threat Detection System**
+A multi-layer threat detection system integrating LSB steganography, NLP-based risk analysis, and deep learning models to identify hidden malicious content, phishing links, APK threats, and AI-generated media.
+## 📌 **Project Overview**
 
-## 📌 Overview
-This project is an advanced cybersecurity tool that combines **Steganography**, **Artificial Intelligence**, and **Threat Detection** to identify hidden and malicious content inside images, videos, and audio files.
+An advanced cybersecurity project that combines **Steganography**, **Artificial Intelligence**, and **Threat Detection** to identify hidden malicious content inside:
 
-It not only extracts hidden messages but also analyzes them for:
-- Fake links
-- Malware APK references
-- Third-party app distribution
-- Deepfake media (image, video, audio)
-- AI-generated/manipulated content
+- Images
+- Videos
+- Audio files
+
+This system can detect:
+
+✅ Hidden messages  
+✅ Fake / phishing links  
+✅ Suspicious APK files  
+✅ Third-party app references  
+✅ Deepfake media  
+✅ AI-manipulated content  
+✅ Spam indicators
 
 ---
 
-## 🚀 Features
+## 🚀 **Key Features**
 
-### 🔐 Steganography
-- Encode secret messages into images using LSB technique
-- Decode hidden messages with password protection
+### 🔐 **Steganography**
+- Encode secret messages into images
+- Decode hidden messages securely
+- Password-protected extraction
 
-### 🔗 Link & APK Detection
-- Detects:
-  - Fake / shortened links (bit.ly, tinyurl, etc.)
-  - Suspicious domains (.tk, .xyz, etc.)
-  - APK file references
-  - Third-party app sources (mod APKs, cracked apps)
+### 🔗 **Link Detection**
+- Fake link detection
+- Shortened URL detection
+- Suspicious domain detection
+- Phishing link analysis
 
-### 🧠 AI Threat Detection
-- Deepfake image detection
+### 📦 **APK Threat Detection**
+- Detect APK references
+- Identify third-party app sources
+- Malware APK indicators
+
+### 🤖 **Deepfake Detection**
+- AI-manipulated image detection
 - Deepfake video detection
 - AI-generated audio detection
-- AI manipulation detection
 
-### ⚠️ Risk Analysis System
-- Threat score calculation
-- Risk classification:
-  - Low Risk
-  - Medium Risk
-  - High Risk
-- Spam and phishing keyword detection
-
-### 🔍 Advanced Security Checks
-- Hidden APK metadata detection
-- QR code detection (optional)
-- Malware keyword detection
-- Behavioral phishing detection
+### 📊 **Risk Analysis**
+- Threat scoring
+- Risk classification
+- Security alerts
 
 ---
 
-## 🧰 Technologies Used
+## 🛠 **Tech Stack**
 
+### **Programming Language**
 - Python
+
+### **Framework**
 - Streamlit
-- OpenCV
+
+### **Libraries**
 - NumPy
 - Pillow
-- Transformers (Hugging Face)
+- OpenCV
 - PyTorch
+- Transformers
 - Librosa
 - MoviePy
 
 ---
 
-## 📂 Project Structure 
+## 📂 **Project Structure**
+
+```plaintext
+AI-Steganography-Threat-Detection/
+│
+├── app.py
+├── webpage.html
+├── requirements.txt
+├── README.md
+└── assets/
+```
+
 ---
 
-## ⚙️ Installation
+## ⚙️ **Installation**
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/yourusername/AI-Steganography-Threat-Detection.git
+cd AI-Steganography-Threat-Detection
 pip install -r requirements.txt
+```
 
-**##To run**
+---
+
+## ▶️ **Run Project**
+
+```bash
 streamlit run app.py
+```
 
+---
 
-##**🧪 Use Cases**
-Cybersecurity analysis
-Digital forensics
-Malware detection
-Deepfake detection
-Secure communication
+## 🔍 **How It Works**
 
-##**🎯 Future Enhancements**
-Real-time camera deepfake detection
-Live microphone AI voice detection
-Threat visualization dashboard
-Cloud deployment
+### **Step 1**
+Upload media file
 
+### **Step 2**
+Encode / Decode hidden message
 
-An advanced AI-based steganography and cybersecurity tool that extracts hidden data from media files and detects fake links, malicious APKs, third-party apps, and deepfake image, video, and audio content using multi-layer threat analysis.
+### **Step 3**
+Analyze hidden content
+
+### **Step 4**
+Generate threat score
+
+### **Step 5**
+Display security alert
+
+---
+
+## 📈 **Threat Levels**
+
+| Score | Risk Level |
+|------|-----------|
+| 0–3 | Low |
+| 4–7 | Medium |
+| 8+ | High |
+
+---
+
+## 🎯 **Use Cases**
+
+- Cybersecurity Research
+- Malware Detection
+- Digital Forensics
+- Secure Communication
+- Deepfake Analysis
+
+---
+
+## 🔮 **Future Enhancements**
+
+- Real-time webcam detection
+- Live microphone AI voice detection
+- Cloud deployment
+- Automated threat reporting
+
+---
+
+## 👨‍💻 **Author**
+
+Patevar Divyasra
+
+---
+
+## 📜 **License**
+
+This project is developed for **educational and research purposes**.
+
+---
+
+## ⭐ **Support**
+
+If you found this project useful, consider giving it a **star ⭐**
