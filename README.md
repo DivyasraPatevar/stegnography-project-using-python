@@ -157,7 +157,7 @@ Patevar Divyasra
 
 ## 📜 **License**
 
-This project is developed for **educational and research purposes**.
+This project is developed for **free and open source**.
 
 ---
 
